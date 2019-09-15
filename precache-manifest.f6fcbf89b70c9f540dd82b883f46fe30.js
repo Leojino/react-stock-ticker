@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "539a86f8271c102663a81473bc4e71e8",
+    "revision": "2057efafbecd9da5ecca927087eba80e",
     "url": "/react-stock-ticker/index.html"
   },
   {
-    "revision": "f2738ee3e47ace1c39f7",
+    "revision": "bcf0acb8b1413d20cf04",
     "url": "/react-stock-ticker/static/css/main.67750fd9.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-stock-ticker/static/js/2.ee31819d.chunk.js"
   },
   {
-    "revision": "f2738ee3e47ace1c39f7",
-    "url": "/react-stock-ticker/static/js/main.0255aebd.chunk.js"
+    "revision": "bcf0acb8b1413d20cf04",
+    "url": "/react-stock-ticker/static/js/main.0ce1a95d.chunk.js"
   },
   {
     "revision": "f672061724fd9be690d9",
