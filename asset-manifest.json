@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-stock-ticker/static/css/main.67750fd9.chunk.css",
-    "main.js": "/react-stock-ticker/static/js/main.10bed393.chunk.js",
-    "main.js.map": "/react-stock-ticker/static/js/main.10bed393.chunk.js.map",
+    "main.js": "/react-stock-ticker/static/js/main.4403be04.chunk.js",
+    "main.js.map": "/react-stock-ticker/static/js/main.4403be04.chunk.js.map",
     "runtime~main.js": "/react-stock-ticker/static/js/runtime~main.046c1707.js",
     "runtime~main.js.map": "/react-stock-ticker/static/js/runtime~main.046c1707.js.map",
     "static/js/2.ee31819d.chunk.js": "/react-stock-ticker/static/js/2.ee31819d.chunk.js",
     "static/js/2.ee31819d.chunk.js.map": "/react-stock-ticker/static/js/2.ee31819d.chunk.js.map",
     "index.html": "/react-stock-ticker/index.html",
-    "precache-manifest.e8c0a814a03393429916bd5e2541e386.js": "/react-stock-ticker/precache-manifest.e8c0a814a03393429916bd5e2541e386.js",
+    "precache-manifest.66e3b396fd7ed2933e0e2d323219631f.js": "/react-stock-ticker/precache-manifest.66e3b396fd7ed2933e0e2d323219631f.js",
     "service-worker.js": "/react-stock-ticker/service-worker.js",
     "static/css/main.67750fd9.chunk.css.map": "/react-stock-ticker/static/css/main.67750fd9.chunk.css.map",
     "static/media/logo.svg": "/react-stock-ticker/static/media/logo.5d5d9eef.svg"
