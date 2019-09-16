@@ -1,8 +1,12 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-const WSClient = new WebSocket('wss://stocks.mnet.website');
+let WSClient;
+try{
+  WSClient = new WebSocket('ws://stocks.mnet.website');
+}catch(e) {
+  console.log(e);
+}
 
 class App extends Component {
 
@@ -12,16 +16,22 @@ class App extends Component {
   }
 
   componentDidMount() {
-    WSClient.onopen = () => {
-      setTimeout(()=> {
-        this.setState( {loading: false} )
-      },500);
-    }
 
-    WSClient.onmessage = message => {
-      const stocks =  this.createTableData(JSON.parse(message.data))
-      this.setState({data: stocks});
+    if(WSClient){
+      WSClient.onopen = this.WebSocketOpen;
+      WSClient.onmessage = this.WebSocketOnMessage
     }
+  }
+
+  WebSocketOpen = () => {
+    setTimeout(()=> {
+      this.setState( {loading: false} )
+    },500);
+  }
+
+  WebSocketOnMessage = (message) => {
+    const stocks =  this.createTableData(JSON.parse(message.data))
+    this.setState({data: stocks});
   }
 
   createTableData(stocks) {
